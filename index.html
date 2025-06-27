@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <title>Meu Portfólio</title>
-    </head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <body>
-     <!-- Portfolio Interativo -->
-     <div class="inicio">
-            <i class="fa-solid fa-circle-user"></i>
-            <h1>Matheus César</h1>
-            <button><a href="index.html">Home</a></button>
-            <a href="sobre.html">Sobre</a>
-            <a href="projetos.html">Projetos</a>
-            <a href="contato.html">Contato</a>
 
-            <!-- à direta, fazer "interruptor", com o desenho msm, e 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Meu Portfólio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <!-- Portfolio Interativo -->
+    <div class="inicio">
+        <i class="fa-solid fa-circle-user"></i>
+        <h1>Matheus César</h1>
+        <button><a href="index.html">Home</a></button>
+        <a href="sobre.html">Sobre</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="contato.html">Contato</a>
+
+        <!-- à direta, fazer "interruptor", com o desenho msm, e 
             claro, mudança no background -->
 
-            <div class="interruptor">
-                <button type="button" class="mudaTema()"></button>
-            </div>
+        <div class="interruptor">
+            <button type="button" onclick="mudaTema()">🌗</button>
         </div>
+    </div>
 
-            <div class="home" id="home">
-                <!-- quando o usuario abrir o site, essa mensagem tem q ocupar a tela no min. em 90%
+    <div class="home" id="home">
+        <!-- quando o usuario abrir o site, essa mensagem tem q ocupar a tela no min. em 90%
                 E ainda tem o seu slogan krai -->
-                <!-- na vdd, n sei se ponho cada topico em uma pagina html, ou se faço o CSS mais pika da minha vida... -->
-                <h1>Olá, eu sou o Matheus</h1>
-                <p>Um desenvolvedor web full-stack <strong>aprendiz</strong>, que gosta muito de tecnologia, orientado a criação de sites e apps, desenvolvimento de projetos web e automação de IA.</p>
-            </div>
+        <!-- na vdd, n sei se ponho cada topico em uma pagina html, ou se faço o CSS mais pika da minha vida... -->
+        <h1>Olá, eu sou o Matheus</h1>
+        <p>Um desenvolvedor web full-stack <strong>aprendiz</strong>, que gosta muito de tecnologia, orientado a criação
+            de sites e apps, desenvolvimento de projetos web e automação de IA.</p>
+    </div>
 
 
 
-        <aside>
-            <!-- substitua as palavras pelos icones,
-             para ficar mais profissional -->
-            <a href="https://www.instagram.com/mpestudante12" target="_blank"><button type="button"><img src="https://cdn.iconscout.com/icon/free/png-256/free-instagram-logo-icon-download-in-svg-png-gif-file-formats--social-media-pack-logos-icons-721958.png" alt=""></button></a><br><br>
-            <a href="http://github.com/Matheus0197M" target="_blank"><button type="button"><img src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-download-in-svg-png-gif-file-formats--social-media-pack-logos-icons-721954.png" alt=""></button></a><br><br>
-            <a href="https://m.youtube.com/@felisbertronn" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo_YouTube_%28en_PNG%29.png" alt=""></button></a><br><br>
-            <a href="https://www.linkedin.com/in/matheuss0197/" target="_blank"><button type="button"><img src="https://img.icons8.com/?size=512&id=13930&format=png" alt=""></button></a>
-        </aside>
+    <aside>
+        <a href="https://www.instagram.com/mpestudante12" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+        </a>
+        <a href="https://github.com/Matheus0197M" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+        </a>
+        <a href="https://www.youtube.com/@felisbertronn" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        </a>
+        <a href="https://www.linkedin.com/in/matheuss0197/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+        </a>
+    </aside>
 
-        <footer>Copyright © Todos os direitos reservados</footer>
- </body>
- </html>
+
+    <footer>Copyright © Todos os direitos reservados</footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
